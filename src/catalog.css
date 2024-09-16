@@ -1,0 +1,34 @@
+.catalog-page-container {
+  width: 100%;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 100px; /* Adjust this based on the height of the header */
+  overflow-y: auto; /* Enable scrolling */
+  height: calc(100vh - 85px); /* Subtract header height from the full viewport */
+  box-sizing: border-box;
+}
+
+.catalog-header {
+  width: 100%;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.059);
+  
+  z-index: 1000;
+  border-bottom: 1px solid #c5e1a5;
+}
+
+.catalog-categories-section {
+  margin-top: 110px; /* Space out below the header to avoid overlap */
+  
+  padding-bottom: 20px; /* Add some space at the bottom */
+}
+
+.catalog-categories-grid {
+  
+  padding-bottom: 20px; /* Prevent the last row from sticking to the bottom */
+}

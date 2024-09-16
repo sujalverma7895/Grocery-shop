@@ -47,7 +47,7 @@ function App() {
 
   useEffect(() => {
     setData(Api); // Initialize data
-    setFilteredData(Api); // Initialize filtered data
+    setFilteredData(Api); 
   }, []);
 
   const task = (category) => {
